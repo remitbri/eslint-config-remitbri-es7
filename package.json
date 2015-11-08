@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-remitbri-es7",
+  "version": "1.0.0",
+  "description": "Additional es7 ESLint configuration to be used with eslint-config-remitbri.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "npm run lint",
+    "deploy": "npm test && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remitbri/eslint-config-remitbri.git"
+  },
+  "keywords": [
+    "babel-eslint",
+    "es7",
+    "eslint",
+    "eslint-plugin-react",
+    "eslint-config",
+    "javascript",
+    "js",
+    "ecmascript",
+    "lint",
+    "linter",
+    "react",
+    "remitbri"
+  ],
+  "author": "Rémi Gérard-Marchant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remitbri/eslint-config-remitbri/issues"
+  },
+  "homepage": "https://github.com/remitbri/eslint-config-remitbri#readme",
+  "peerDependencies" :{
+    "babel-eslint": "^4.1.4",
+    "eslint": "^1.9.0",
+    "eslint-config-remitbri": "^2.0.0"
+  }
+}
