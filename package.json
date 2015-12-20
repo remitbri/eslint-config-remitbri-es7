@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-remitbri-es7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Additional es7 ESLint configuration to be used with eslint-config-remitbri.",
   "main": "index.js",
   "scripts": {
