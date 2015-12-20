@@ -32,8 +32,12 @@
     "url": "https://github.com/remitbri/eslint-config-remitbri/issues"
   },
   "homepage": "https://github.com/remitbri/eslint-config-remitbri#readme",
-  "peerDependencies" :{
+  "peerDependencies": {
     "babel-eslint": "^5.0.0-beta6",
+    "eslint": "^1.10.3",
+    "eslint-config-remitbri": "^3.0.1"
+  },
+  "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-remitbri": "^3.0.1"
   }

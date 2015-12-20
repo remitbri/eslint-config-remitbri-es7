@@ -5,6 +5,7 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased]
 ### Changed
+- eslint and eslint-config-remitbri as a dev dependencies
 - Peer dependencies update
 
 
